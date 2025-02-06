@@ -1,0 +1,1191 @@
+.box{
+  width: 2000px;
+  position: relative;
+  margin: 0 auto;
+}
+.nebo{
+  width: 20010px;
+  height: 2000px;
+  background-color: blue;
+  position: absolute;
+  left: -10010px;
+  top: -10px;
+}
+.g{
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  left: 00px;
+  top: 1000px;
+}
+.flower{
+  width: 10px;
+  height: 150px;
+  background-color: BROWN;
+  position: absolute;
+  left:100px ;
+  top:-120px ;
+}
+.flower1{
+  width:50px ;
+  height:50px ;
+  background-color:yellow;
+  position: absolute;
+  left:-20px ;
+  top:-10px ;
+  border-radius:100px;
+}
+.flower2{
+  width: 25px;
+  height:25px ;
+  border-radius:100px;
+  background-color: black;
+  position: absolute;
+  left:-7px ;
+  top:2px ;
+}
+.grass{
+  width: 10000px;
+  height: 10000px;
+  background-color:lightgreen;
+  position: absolute;
+  left: -50px;
+  top:0px ;
+}
+.flower3{
+  width: 10px;
+  height: 100px;
+  background-color: BROWN;
+  position: absolute;
+  left:150px ;
+  top:-100px ;
+}
+.flower4{
+  width:50px ;
+  height:50px ;
+  background-color:yellow;
+  position: absolute;
+  left:-20px ;
+  top:-10px ;
+  border-radius:100px;
+}
+.flower5{
+  width: 25px;
+  height:25px ;
+  border-radius:100px;
+  background-color: black;
+  position: absolute;
+  left:-7px ;
+  top:2px ;
+}
+.flower6{
+  width: 10px;
+  height: 100px;
+  background-color: BROWN;
+  position: absolute;
+  left:50px ;
+  top:-100px ;
+}
+.flower7{
+  width:50px ;
+  height:50px ;
+  background-color:yellow;
+  position: absolute;
+  left:-20px ;
+  top:-10px ;
+  border-radius:100px;
+}
+.flower8{
+  width: 25px;
+  height:25px ;
+  border-radius:100px;
+  background-color: black;
+  position: absolute;
+  left:-7px ;
+  top:2px ;
+}
+.car{
+  width:200px ;
+  height: 70px;
+  position: absolute;
+  left: 300px;
+  top: -100px;
+  background-color: green;
+  border-radius:100% 50% 10% 0%;
+  animation: move 10s linear infinite;
+}
+@keyframes move{
+  0%{
+    position: absolute;
+    left: 300px;
+    top: -100px;
+  }
+  100%{
+    position: absolute;
+    left:10000px ;
+    top: -100px;
+  }
+}
+.car1{
+  width:100px ;
+  height: 30px;
+  position: absolute;
+  left: 90px;
+  top: 10px;
+  background-color: black;
+  border-radius:0% 50% 0% 0%;
+}
+.car2{
+  width:50px ;
+  height: 50px;
+  position: absolute;
+  left: 130px;
+  top: 50px;
+  background-color: black;
+  border-radius:100%;
+}
+.car3{
+  width:50px ;
+  height: 50px;
+  position: absolute;
+  left:20px;
+  top: 50px;
+  background-color: black;
+  border-radius:100%;
+}
+.xm{
+  width:100px ;
+  height: 50px;
+  position: absolute;
+  left:500px;
+  top:-700px;
+  background-color: green;
+  border-radius:100%;
+  animation:move2 150s linear infinite;
+}
+@keyframes move2{
+  0%{
+    position: absolute;
+    left: 500px;
+    top: -700px;
+  }
+  50%{
+    position: absolute;
+    left:5000px ;
+    top: -700px;
+  }
+  100%{
+    position: absolute;
+    left: 500px;
+    top: -700px;
+  }
+}
+.xm2{
+  width:150px ;
+  height: 50px;
+  position: absolute;
+  left:0px;
+  top:-10px;
+  background-color: green;
+  border-radius:100%;
+}
+.xm1{
+  width:50px ;
+  height: 50px;
+  position: absolute;
+  left:0px;
+  top:-20px;
+  background-color: green;
+  border-radius:100%;
+}
+.xm3{
+  width:50px ;
+  height: 60px;
+  position: absolute;
+  left:50px;
+  top:-0px;
+  background-color: green;
+  border-radius:100%;
+}
+.xm4{
+  width:100px ;
+  height: 50px;
+  position: absolute;
+  left:1500px;
+  top:-750px;
+  background-color: green;
+  border-radius:100%;
+   animation:move3 150s linear infinite;
+}
+@keyframes move3{
+  0%{
+    position: absolute;
+    left: 1500px;
+    top: -750px;
+  }
+  50%{
+    position: absolute;
+    left:6000px ;
+    top: -750px;
+  }
+  100%{
+    position: absolute;
+    left: 1500px;
+    top: -750px;
+  }
+}
+.xm5{
+  width:150px ;
+  height: 50px;
+  position: absolute;
+  left:0px;
+  top:-10px;
+  background-color: green;
+  border-radius:100%;
+}
+.xm6{
+  width:50px ;
+  height: 50px;
+  position: absolute;
+  left:0px;
+  top:-20px;
+  background-color: green;
+  border-radius:100%;
+}
+.xm7{
+  width:50px ;
+  height: 60px;
+  position: absolute;
+  left:50px;
+  top:-0px;
+  background-color: green;
+  border-radius:100%;
+}
+.xm8{
+  width:100px ;
+  height: 50px;
+  position: absolute;
+  left:2500px;
+  top:-850px;
+  background-color: green;
+  border-radius:100%;
+  animation:move4 150s linear infinite;
+}
+@keyframes move4{
+  0%{
+    position: absolute;
+    left: 2500px;
+    top: -850px;
+  }
+  50%{
+    position: absolute;
+    left:7500px ;
+    top: -850px;
+  }
+  100%{
+    position: absolute;
+    left: 2500px;
+    top: -850px;
+  }
+}
+.xm9{
+  width:150px ;
+  height: 50px;
+  position: absolute;
+  left:0px;
+  top:-10px;
+  background-color: green;
+  border-radius:100%;
+}
+.xm10{
+  width:50px ;
+  height: 50px;
+  position: absolute;
+  left:0px;
+  top:-20px;
+  background-color: green;
+  border-radius:100%;
+}
+.xm11{
+  width:50px ;
+  height: 60px;
+  position: absolute;
+  left:50px;
+  top:-0px;
+  background-color: green;
+  border-radius:100%;
+}
+.home1{
+  width: 200px;
+  height: 200px;
+  background-color:green ;
+  position: absolute;
+  left:650px ;
+  top:-200px ;
+}
+.home2{
+  width: 50px;
+  height: 50px;
+  background-color:white ;
+  position: absolute;
+  left:125px ;
+  top:20px ;
+}
+.panel{
+  width: 230px;
+  height: 125px;
+  background-color:grey;
+  position: absolute;
+  left:637px ;
+  top:-320px ;
+}
+.panel1{
+  width: 105px;
+  height: 50px;
+  background-color:#c1c1c1;
+  position: absolute;
+  left:10px ;
+  top:10px ;
+}
+.panel2{
+  width: 105px;
+  height: 50px;
+  background-color:#c1c1c1;
+  position: absolute;
+  left:118px ;
+  top:10px ;
+}
+.panel3{
+  width: 105px;
+  height: 50px;
+  background-color:#c1c1c1;
+  position: absolute;
+  left:10px ;
+  top:70px ;
+}
+.panel4{
+  width: 105px;
+  height: 50px;
+  background-color:#c1c1c1;
+  position: absolute;
+  left:118px;
+  top:70px;
+}
+.tree1{
+  width: 20px;
+  height: 100px;
+  background-color: brown;
+  position: absolute;
+  left:950px ;
+  top:-100px ;
+}
+.tree2{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left:-40px ;
+  top:-80px ;
+  border-radius:100%;
+}
+.bighome{
+  width: 200px;
+  height: 500px;
+  background-color: green;
+  position: absolute;
+  left: 1050px;
+  top: -500px;
+}
+.bighome1{
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left: 0px;
+  top: -120px;
+}
+.bighome2{
+  width: 150px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left: 25px;
+  top: -240px;
+}
+.bighome3{
+  width: 75px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left: 65px;
+  top: -360px;
+}
+.bighome4{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.bighome5{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 55px;
+  top: 10px;
+}
+.bighome6{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 55px;
+  top: 55px;
+}
+.bighome7{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 55px;
+}
+.bighome8{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 100px;
+}
+.bighome9{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 145px;
+}
+.bighome10{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 190px;
+}
+.bighome11{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 235px;
+}
+.bighome12{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 280px;
+}
+.bighome13{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 325px;
+}
+.bighome14{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 370px;
+}
+.bighome15{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 55px;
+  top: 370px;
+}
+.bighome16{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 55px;
+  top: 55px;
+}
+.bighome17{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 55px;
+  top: 100px;
+}
+.bighome18{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 55px;
+  top: 145px;
+}
+.bighome19{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 55px;
+  top: 190px;
+}
+.bighome111{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 55px;
+  top: 235px;
+}
+.bighome112{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left:55px;
+  top: 280px;
+}
+.bighome114{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 55px;
+  top: 325px;
+}
+.bighome115{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+.bighome116{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 145px;
+  top: 10px;
+}
+.bighome117{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 55px;
+}
+.bighome118{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 145px;
+  top: 55px;
+}
+.big{
+  width: 200px;
+  height: 400px;
+  background-color: green;
+  position: absolute;
+  left: 1300px;
+  top: -400px;
+}
+.big1{
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left: 1300px;
+  top: -520px;
+}
+.big2{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -390px;
+}
+.big3{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  top: -390px;
+}
+.big4{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  top: -350px;
+}
+.big5{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -350px;
+}
+.big6{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -310px;
+}
+.big7{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  top: -310px;
+}
+.big8{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  top: -270px;
+}
+.big9{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -270px;
+}
+.big10{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  top: -230px;
+}
+.big11{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -230px;
+}
+.big12{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  top: -190px;
+}
+.big13{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -190px;
+}
+.big14{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -190px;
+}
+.big15{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -150px;
+}
+.big16{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  top: -150px;
+}
+.big17{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  top: -110px;
+}
+.big18{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -110px;
+}
+
+.big19{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1310px;
+  top: -70px;
+}
+.big20{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 1350px;
+  top: -70px;
+}
+.big21{
+  width: 30px;
+  height: 350px;
+  background-color: white;
+  position: absolute;
+  left: 1390px;
+  top: -390px;
+}
+.DJbak{
+  width: 50px;
+  height: 70px;
+  background-color: green;
+  position: absolute;
+  left: 1530px;
+  top: -70px;
+}
+.DJbak1{
+  width: 60px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  left: -5px;
+  top: -10px;
+}
+.house{
+  width: 250px;
+  height: 450px;
+  background-color: green;
+  position: absolute;
+  left: 100px;
+  top: -380px;
+}
+.house1{
+  width: 10px;
+  height: 450px;
+  background-color: green;
+  position: absolute;
+  left: 117px;
+  top: -150px;
+}
+.house2{
+  width: 220px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 17px;
+  top: 17px;
+}
+.house3{
+  width: 220px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 17px;
+  top: 62px;
+}
+.house4{
+  width: 220px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 17px;
+  top: 107px;
+}
+.house5{
+  width: 220px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 17px;
+  top: 152px;
+}
+.house6{
+  width: 220px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 17px;
+  top: 197px;
+}
+.house7{
+  width: 220px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 17px;
+  top: 242px;
+}
+.house8{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  left: 40px;
+  top: -200px;
+  background-size:70%;
+}
+.tree3{
+  width: 20px;
+  height: 100px;
+  background-color: brown;
+  position: absolute;
+  left:500px ;
+  top:-30px ;
+}
+.tree4{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left:-40px ;
+  top:-80px ;
+  border-radius:100%;
+}
+.bigcar{
+  width:225px ;
+  height:110px ;
+  background-color:green;
+  position: absolute;
+  left:850px ;
+  top:-90px ;
+  border-radius:0% 10% 30% 0%;
+  animation: move1 10s linear infinite;
+}
+@keyframes move1{
+  0%{
+    position: absolute;
+    left: 850px;
+    top: -90px;
+  }
+  100%{
+    position: absolute;
+    left:-1000px ;
+    top: -90px;
+  }
+}
+.bigcar1{
+  width:80px ;
+  height:100px ;
+  background-color:green;
+  position: absolute;
+  left:-70px ;
+  top:15px ;
+  border-radius:70% 10% 30% 10%;
+}
+.bigcar2{
+  width:50px ;
+  height:50px ;
+  background-color:black;
+  position: absolute;
+  left:-30px ;
+  top:110px ;
+  border-radius:100%;
+}
+.bigcar3{
+  width:50px ;
+  height:50px ;
+  background-color:black;
+  position: absolute;
+  left:80px ;
+  top:110px ;
+  border-radius:100%;
+}
+.bigcar4{
+  width:50px ;
+  height:50px ;
+  background-color:black;
+  position: absolute;
+  left:140px ;
+  top:110px ;
+  border-radius:100%;
+}
+.bigcar5{
+  width:50px ;
+  height:50px ;
+  background-color:black;
+  position: absolute;
+  left:-50px ;
+  top:30px ;
+  border-radius:20% 0% 0% 10%;
+}
+.dom{
+  width: 200px;
+  height: 200px;
+  background-color:  green;
+  position: absolute;
+  left: 1200px;
+  top: -110px;
+}
+.dom1{
+  width: 20px;
+  height: 80px;
+  background-color:  grey;
+  position: absolute;
+  left: 30px;
+  top: -100px;
+}
+.dom2{
+  width: 220px;
+  height: 30px;
+  background-color:  brown;
+  position: absolute;
+  left: -10px;
+  top: -30px;
+}
+.dom3{
+  width: 70px;
+  height: 100px;
+  background-color:  white;
+  position: absolute;
+  left: 30px;
+  top: 80px;
+}
+.dom4{
+  width: 50px;
+  height: 50px;
+  background-color:  white;
+  position: absolute;
+  left: 130px;
+  top: 100px;
+}
+.tree5{
+  width: 20px;
+  height: 100px;
+  background-color: brown;
+  position: absolute;
+  left:1500px ;
+  top:-30px ;
+}
+.tree6{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left:-40px ;
+  top:-80px ;
+  border-radius:100%;
+}
+.pr{
+  width:20px;
+  height: 440px;
+  background-color: black;
+  position: absolute;
+  left:1660px ;
+  top:-370px ;
+}
+.pr00{
+  width:20px;
+  height:20px;
+  background-color:black;
+  position: absolute;
+  left:-65px ;
+  top:-30px ;
+  transform:rotate(45deg);
+  animation:move6 10s linear infinite;
+}
+@keyframes move6{
+  0%{
+    position: absolute;
+    left: 0px;
+    top: -0px;
+    transform:rotate(0deg);
+  }
+  100%{
+    position: absolute;
+    left:0px ;
+    top: -0px;
+    transform:rotate(360deg);
+  }
+}
+.pr1{
+  width:20px;
+  height:200px;
+  background-color:#50ff29;
+  position: absolute;
+  left:-65px ;
+  top:-30px ;
+  transform:rotate(45deg);
+}
+.pr2{
+  width:20px;
+  height:200px;
+  background-color:#50ff29;
+  position: absolute;
+  left:0px ;
+  top:-180px ;
+  transform:rotate(180deg);
+}
+.pr3{
+  width:20px;
+  height:200px;
+  background-color:#50ff29;
+  position: absolute;
+  left:65px ;
+  top:-30px ;
+  transform:rotate(315deg);
+}
+.pr4{
+  width:20px;
+  height: 440px;
+  background-color: black;
+  position: absolute;
+  left:2100px ;
+  top:-370px ;
+}
+.pr000{
+  width:20px;
+  height:20px;
+  background-color:black;
+  position: absolute;
+  left:-65px ;
+  top:-30px ;
+  transform:rotate(45deg);
+  animation:move7 15s linear infinite;
+}
+@keyframes move7{
+  0%{
+    position: absolute;
+    left: 0px;
+    top: -0px;
+    transform:rotate(0deg);
+  }
+  100%{
+    position: absolute;
+    left:0px ;
+    top: -0px;
+    transform:rotate(360deg);
+  }
+}
+.pr5{
+  width:20px;
+  height:200px;
+  background-color:#50ff29;
+  position: absolute;
+  left:-65px ;
+  top:-30px ;
+  transform:rotate(45deg);
+}
+.pr6{
+  width:20px;
+  height:200px;
+  background-color:#50ff29;
+  position: absolute;
+  left:0px ;
+  top:-180px ;
+  transform:rotate(180deg);
+}
+.pr7{
+  width:20px;
+  height:200px;
+  background-color:#50ff29;
+  position: absolute;
+  left:65px ;
+  top:-30px ;
+  transform:rotate(315deg);
+}
+.pr8{
+  width:20px;
+  height: 440px;
+  background-color: black;
+  position: absolute;
+  left:2400px ;
+  top:-370px ;
+}
+.pr000{
+  width:20px;
+  height:20px;
+  background-color:black;
+  position: absolute;
+  left:-65px ;
+  top:-30px ;
+  transform:rotate(45deg);
+  animation:move8 18s linear infinite;
+}
+@keyframes move8{
+  0%{
+    position: absolute;
+    left: 0px;
+    top: -0px;
+    transform:rotate(0deg);
+  }
+  100%{
+    position: absolute;
+    left:0px ;
+    top: -0px;
+    transform:rotate(360deg);
+  }
+}
+.pr9{
+  width:20px;
+  height:200px;
+  background-color:#50ff29;
+  position: absolute;
+  left:-65px ;
+  top:-30px ;
+  transform:rotate(45deg);
+}
+.pr10{
+  width:20px;
+  height:200px;
+  background-color:#50ff29;
+  position: absolute;
+  left:0px ;
+  top:-180px ;
+  transform:rotate(180deg);
+}
+.pr11{
+  width:20px;
+  height:200px;
+  background-color:#50ff29;
+  position: absolute;
+  left:65px ;
+  top:-30px ;
+  transform:rotate(315deg);
+}
